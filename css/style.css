@@ -1,0 +1,215 @@
+
+body{
+    background-color: ce-between;
+    background-color: rgb(220, 255, 200);
+  
+    
+}
+.principal{
+    
+    height: 43.75em;
+    width: 75em;
+    margin: 6em auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(220, 255, 200);
+  
+}
+.secone {
+    margin-top: 70px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.5rem;
+   
+}
+.sectwo {
+    margin-top: 80px;
+    padding: 2rem;
+    width: 50%;
+   
+    box-sizing: border-box;
+}
+
+.formulario{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px 1px rgb(241, 241, 241);
+    width: 26em;
+    height: 39em;
+}
+
+.seccionformulario{
+    margin-bottom: 20px;
+	
+	
+}
+.seccionformulario label{
+
+    display: inline-block;
+    margin-bottom: 5px;
+
+}   
+.seccionformulario input{
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 50px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+   
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    width: 18em;
+}
+
+
+.seccionformulario input:focus{
+    outline: 0;
+    border-color: rgb(243, 243, 243);
+    background-color: rgb(243, 243, 243);
+}
+
+.seccionformulario.correcto input{
+    border-color: rgba(39, 216, 127, 0.897);
+    
+}
+.seccionformulario.error input{
+    border-color: #e74c3c;
+    
+}
+
+header{
+    margin-bottom: 40px;
+}
+.seccionformulario i{
+    visibility: hidden;
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 250px;
+}
+.seccionformulario.correcto i.fa-check-circle{
+    color: #2ecc71;
+	visibility: visible;
+
+}
+.seccionformulario.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.seccionformulario small{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    font-size: 13px;
+    color: rgb(189, 5, 5);
+    position: absolute;
+    padding-left: 18px;
+    visibility: hidden;
+
+}
+.seccionformulario.error small{
+   
+    visibility: visible;
+
+}
+.imgpres{
+   
+
+    text-align: center;
+}
+
+.formulario button{
+    background-color: #11c476;
+    border: 2px solid #13c97a;
+    border-radius: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    display: block;
+    
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 75%;
+    
+}
+
+
+
+.textodibujo{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+        font-size: 50px;
+    
+    
+    }
+    .descripciondibujo{
+    
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+            font-size: 23px;
+            color: gray;
+    
+    
+    }
+    .registitle{
+       
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+        color: rgb(2, 175, 39);
+        
+    }
+    
+    .regisdescripcion{
+       
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+        color: rgb(88, 88, 88);
+    }
+    .textobox{
+        font-family: 'Lato', sans-serif;
+    }
+    
+
+@media screen and (max-width: 1000px) {
+    .principal {
+        width: 70%;
+        margin-top: 3rem;
+    }
+    .secone {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .sectwo {
+        display: none;
+    }  
+}
+
+@media screen and (max-width: 650px) {
+    .principal {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .principal {
+        height: 90%;
+    }
+
+  
+}
